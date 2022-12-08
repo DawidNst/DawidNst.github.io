@@ -1,6 +1,6 @@
 $(document).ready(function() {
-  const apiRoot = 'https://java-lombok-prod-kodilla-lombok-hwkil7.mo5.mogenius.io/v1/tasks';
-  const trelloApiRoot = 'https://java-lombok-prod-kodilla-lombok-hwkil7.mo5.mogenius.io/v1/tasks';
+  const apiRoot = 'https://java-lombok-prod-kodilla-tasks-hwkil7.mo5.mogenius.io/v1/tasks';
+  const trelloApiRoot = 'https://java-lombok-prod-kodilla-tasks-hwkil7.mo5.mogenius.io/v1/tasks';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
 
